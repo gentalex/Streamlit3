@@ -55,7 +55,7 @@ if st.session_state["authentication_status"]:
 
     if selection == "Accueil":
         accueil()
-        st.image(r"C:\Users\USER\Desktop\Streamlit\Photo\dofus.jpg")
+        st.image(r"C:\Users\USER\Desktop\Streamlit\dofus.jpg")
              
 
 
@@ -68,15 +68,15 @@ if st.session_state["authentication_status"]:
 
         with col1:
             st.header("FECA")
-            st.image(r"C:\Users\USER\Desktop\Streamlit\Photo\feca.jpg")
+            st.image(r"C:\Users\USER\Desktop\Streamlit\feca.jpg")
 
         with col2:
             st.header("OSAMODAS")
-            st.image(r"C:\Users\USER\Desktop\Streamlit\Photo\Osamodas.jpg")
+            st.image(r"C:\Users\USER\Desktop\Streamlit\Osamodas.jpg")
 
         with col3:
             st.header("ENUTROF")
-            st.image(r"C:\Users\USER\Desktop\Streamlit\Photo\ENU.jpg")
+            st.image(r"C:\Users\USER\Desktop\Streamlit\ENU.jpg")
 
 
 
